@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Assignment 3</title>
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- content taken from http://www.mi.com/en/ -->
+  </head>
+
+  <body role="document">
+      <!-- header -->
+      <header role="banner">
+        <aside role=complementary>
+          <h1>Mi Band</h1>
+          <h3>Understand your every move.<br />
+            Military-grade sensor, 30 day battery</h3>
+          <span>US $14.99</span><p></p>
+        </aside>
+      </header>
+      <!-- navigation -->
+      <nav role="navigation">
+        <ul role="menu" aria-hidden="true">
+            <li><a href="#" role="menuitem">Home</a></li>
+            <li><a href="#" role="menuitem">Features</a></li>
+            <li><a href="#" role="menuitem">Specs</a></li>
+            <li><a href="#" role="menuitem">Contact</a></li>
+              <li><a type="button" href="#" role="menuitem" data-toggle="modal" data-target="#myModal">Login</a></li>
+        </ul>
+      </nav>
+
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" aria-label="Close" data-dismiss="modal">&times;</button>
+
+              <legend>Login form</legend>
+            </div>
+            <div class="modal-body">
+            <!-- form -->
+              <form action="">
+                <fieldset>
+                  <div>
+                    <label for="username">Your username</label>
+              	  <input type="text" id="username" aria-describedby="username-tip"  aria-required="true" required />
+              	  <div role="tooltip" id="username-tip">Your username is your email address</div>
+              	</div>
+              	<div>
+              	  <label for="password">Your password</label>
+              	  <input type="text" id="password" aria-describedby="password-tip"  aria-required="true" required />
+              	  <div role="tooltip" id="password-tip">Was emailed to you when you signed up</div>
+              	</div>
+                </fieldset>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  <!-- feature -->
+  <div class="row" id="feature" role="row">
+    <div class="featureBox">
+  <img src="images/stepcounter.png" alt="step counter feature" aria-hidden="true">
+    </div>
+    <div class="featureBox">
+  <img src="images/miBandBlue.png" alt="Blue mi band" aria-hidden="true">
+    </div>
+    <div class="featureBox">
+  <img src="images/expanded-parts.png" alt="mi band internal components" aria-hidden="true">
+    </div>
+  </div>
+  <!--  -->
+
+  <div class = "twoColumn">
+    <div class="column">
+      <h1>Only the finest workmanship:
+  aluminum alloy sensor and
+  hypoallergenic silicone band</h1>
+    </div>
+      <div class="column">
+        <img src="images/twoBands.jpg" alt="">
+    </div>
+  </div>
+
+  <!--  -->
+
+  <div class = "twoColumn">
+    <div class="column">
+      <img src="images/app.jpg" alt="Mi Band mobile application">
+  </div>
+    <div class="column" id="details">
+      <h1>Mi Fit</h1>
+      <h2>Description</h2>
+      <ul>
+        <li>Use Mi Band to set, track, and follow your health and fitness data day and night.</li>
+        <li>Monitor and track your sleep quality.</li>
+        <li>Start every day feeling rested with Early Bird Alarm.</li>
+        <li>Gain insights from easy to view trends based your personal health data.</li>
+        <li>Share your progress and stats with friends on Line or Facebook.</li>
+      </ul>
+      <h3>Download From Google Play</h3>
+      <input type="submit" id="installBtn" href="#" aria-label="submit" role=button value="
+      install" />
+    </div>
+  </div>
+  <!-- sub footer -->
+  <div id="contact">
+    <form role="form">
+      <label for="fname">First Name</label>
+      <input type="text" name="firstname" aria-labelledby="fname" placeholder="Your first name.." aria-required="true" required="">
+
+      <label for="lname">Last Name</label>
+      <input type="text" name="lastname" aria-labelledby="lname" placeholder="Your last name.." aria-required="true" required="">
+
+      <label for="email">Email</label>
+      <input type="text" name="email" aria-labelledby="email" placeholder="Your email.." aria-required="true" required="">
+
+      <label for="subject">Subject</label>
+      <input type="text" name="subject" aria-labelledby="subject" placeholder="Your Suject.." aria-required="false">
+
+      <label for="message">Message</label>
+      <input type="text" name="message" aria-labelledby="message" placeholder="Your message.." aria-required="true" required="">
+
+      <input type="submit" value="Pre-Order Today!" aria-label="submit" role="button">
+
+<!-- newsletter -->
+<h2 id="newsletter">SUBSCRIBE TO OUR NEWSLETTERS</h2>
+<div class="checkbox">
+<label><input type="checkbox" role="checkbox" aria-checked="false" tabindex="0" value="">Updates</label>
+</div>
+
+<div class="checkbox">
+<label><input type="checkbox" role="checkbox" aria-checked="false" tabindex="0" value="">Blog</label>
+</div>
+
+    </form>
+  </div>
+      <!-- footer -->
+      <footer role="contentinfo">
+          <p>Copywrite @ChadClarke</p>
+      </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"
+  integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+  crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>

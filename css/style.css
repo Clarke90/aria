@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+}
+h1{
+  margin: 0;
+  font-size: 3rem;
+}
+p{
+  margin: 0;
+}
+h2#newsletter{
+  color: #efefef;
+}
+label {
+    color: #efefef;
+}
+fieldset label{
+  color: #242424;
+}
+div[role=tooltip]{
+  color: green;
+}
+/*header*/
+header{
+  background-image: url('../images/mibandBanner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+header aside{
+  margin-left: 5%;
+  color: #efefef;
+  padding-top: 5%;
+}
+/*feature*/
+  .featureBox {
+    display: inline-block;
+    margin: 10px;
+}
+div#feature {
+    text-align: center;
+}
+div.twoColumn {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.column{
+  width: 50%;
+  overflow: hidden;
+  font-size: 20px;
+}
+.column#details{
+  margin-left: 5%;
+}
+/*nav*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+/*contact*/
+#contact{
+  background: #171717;
+  padding: 5%;
+}
+#contact form label{
+  color: #efefef;
+}
+input[name="message"]{
+  height: 100px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #5DBCD2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form{
+  width: 75%;
+  margin: 0 auto;
+}
+/*footer*/
+footer{
+  background-color:#242424;
+  padding: 20px 0;
+  color: #efefef;
+}
